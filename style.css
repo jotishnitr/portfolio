@@ -1,3 +1,7 @@
+*{
+  box-sizing:border-box;
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -31,14 +35,14 @@ body{
 .home:active{
   color:rgb(31,31,188);
 }
-.skills-menu{
+.skills-menu,.projects-menu{
   color:darkslategrey;
   transition:color 0.15s;
 }
-.skills-menu:hover{
+.skills-menu:hover,.projects-menu:hover{
   color:rgb(31, 31, 188);
 }
-.skills-menu:active{
+.skills-menu:active,.projects-menu:active{
   color:rgb(31,31,188);
 }
 .contact-menu{
@@ -307,23 +311,113 @@ a{
   justify-content:center;
 }
 
+.message-section{
+  display:flex;
+  justify-content:center;
+  padding:10px;
+  gap:200px;
+  
+}
+.contact-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:-15px;
+  gap:60px;
+  padding:40px;
+}
+.contact-left{
+  width:350px;
+  display:flex;
+  flex-direction:column;
+  padding:30px;
+  background-color:#f1f5f9;
+  border-radius:8px;
+  gap:15px;
+}
+.contact-left h2{
+  font-size:28px;
+  font-weight:bold;
+  font-family:roboto,Arial;
 
-@media (max-width: 768px){
+}
+
+.contact-left p{
+  font-size:18px;
+  line-height:1.6;
+  color:#475569;
+  font-family:roboto,Arial;
+
+}
+fieldset{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  width:450px;
+  padding:40px;
+  border-radius:6px;
+  border:1px solid #cbd5e1;
+  background-color:white;
+
+}
+input, textarea{
+  border:1px solid #cbd5e1;
+  background-color:white;
+}
+legend{
+  text-align:center;
+  font-size:25px;
+  font-weight:bold;
+  font-family:roboto,Arial;
+}
+.username,.userage,.useremail{
+  height:34px;
+  display: flex;
+  align-items:center;
+  border-radius:6px;
+}
+textarea{
+  border-radius:6px;
+}
+.submit{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+.submit-button{
+  background-color:rgb(19, 119, 201);
+  color:white;
+  padding:8px 15px;
+  border-radius:6px;
+  font-family:roboto,Arial;
+  font-size:15px;
+  cursor:pointer;
+  box-shadow:0px 8px 20px rgb(0,0,0,0.12);
+  border:none;
+  transition:opacity 0.2s;
+  margin-top:15px;
+}
+.submit-button:hover{
+  opacity:0.8;
+}
+
+
+
+@media (max-width:768px){
 
   .navbar{
-    padding:10px 20px;
+    padding:10px 15px;
   }
 
   .menu{
     gap:15px;
-    font-size:16px;
-    margin-right:0;
+    font-size:14px;
   }
 
   .hero-section{
     flex-direction:column;
     text-align:center;
-    padding:40px 20px;
+    padding:30px 15px;
   }
 
   .details{
@@ -332,24 +426,13 @@ a{
 
   .images{
     flex-wrap:wrap;
-  }
-
-  .projects-display{
-    align-items:center;
-  }
-
-  .knn,
-  .portfolio-projects,
-  .dsa-projects{
-    width:90%;
-    flex-direction:column;
     gap:15px;
-    text-align:center;
   }
 
   .contact{
     flex-direction:column;
     align-items:center;
+    gap:15px;
   }
 
   .emaildetails,
@@ -357,6 +440,36 @@ a{
   .linkedindetails,
   .locationdetails{
     width:90%;
+  }
+
+  .contact-container{
+    flex-direction:column;  
+    gap:30px;
+    padding:20px;
+  }
+
+  .contact-left{
+    width:90%;
+    text-align:center;
+  }
+
+  fieldset{
+    width:90%;         
+  }
+
+  input,
+  textarea{
+    width:100%;
+  }
+
+  .projects-display{
+    align-items:center;
+  }
+
+  .project-card{
+    width:90%;
+    flex-direction:column;
+    text-align:center;
   }
 
 }
