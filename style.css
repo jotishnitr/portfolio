@@ -20,6 +20,9 @@ body{
   font-family:roboto,Arial;
   font-size:25px;
   display:inline-block;
+  background: linear-gradient(90deg, #2563eb, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .home{
   color:darkslategrey;
@@ -91,7 +94,7 @@ body{
   font-size:22px;
 }
 .projects{
-  background-color:rgb(19, 119, 201);
+  background: linear-gradient(90deg, #2563eb, #38bdf8);
   color:white;
   display:inline-block;
   text-decoration:none;
@@ -124,6 +127,9 @@ body{
   justify-content:center;
   font-size:30px;
   font-weight:bold;
+  background: linear-gradient(90deg, #2563eb, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .images{
   display:flex;
@@ -145,6 +151,7 @@ img{
   gap:20px;
   transition:transform 0.2s;
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
 .python-skill:hover,.html-skill:hover,.css-skill:hover,.dsa-skill:hover{
   transform:translateY(-5px);
@@ -172,6 +179,9 @@ img{
   justify-content:center;
   font-weight:bold;
   padding-bottom:15px;
+  background: linear-gradient(90deg, #2563eb, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .projects-display{
   display:flex;
@@ -189,6 +199,7 @@ img{
   gap:50px;
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   transition:transform 0.2s;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
 .portfolio-projects{
   display:flex;
@@ -200,6 +211,7 @@ img{
   gap:119px;
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   transition:transform 0.2s;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
 .dsa-projects{
   display:flex;
@@ -211,6 +223,7 @@ img{
   gap:81px;
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   transition:transform 0.2s;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
 .knn:hover,.portfolio-projects:hover,.dsa-projects:hover{
   transform:translateY(-5px);
@@ -225,7 +238,7 @@ img{
   font-weight:550;
 }
 .knn-github,.portfolio-github,.dsa-github{
-  background-color:rgb(19, 119, 201);
+  background: linear-gradient(90deg, #2563eb, #38bdf8);
   color:white;
   padding:7px 13px;
   border-radius:6px;
@@ -244,6 +257,9 @@ img{
   display:flex;
   justify-content:center;
   padding-top:15px;
+  background: linear-gradient(90deg, #2563eb, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   
 }
 .contact{
@@ -265,6 +281,7 @@ img{
   padding:10px 20px;
   width:250px;
   transition:transform 0.2s;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
 .emaildetails:hover,.githubdetails:hover,.linkedindetails:hover,.locationdetails:hover{
   transform:translateY(-5px);
@@ -391,9 +408,11 @@ textarea{
   border:none;
   transition:opacity 0.2s;
   margin-top:15px;
+  
 }
 .submit-button:hover{
   opacity:0.8;
+  background: linear-gradient(90deg, #1d4ed8, #0ea5e9);
 }
 
 
