@@ -455,6 +455,11 @@ textarea{
     gap:30px;
     align-items:center;
   }
+  form{
+    display:flex;
+    justify-content:center;
+    width:100%;
+  }
 
   .contact-left{
     width:90%;
@@ -463,6 +468,7 @@ textarea{
 
   fieldset{
     width:90%;
+    margin:0 auto;
   }
 
   
