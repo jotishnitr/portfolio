@@ -457,6 +457,26 @@ textarea{
   .locationdetails{
     width:90%;
   }
+  contact-container{
+    flex-direction:column;
+    gap:30px;
+    padding:20px;
+  }
+
+  .contact-left{
+    width:90%;
+    text-align:center;
+  }
+
+  fieldset{
+    width:90%;
+  }
+
+  
+  input,
+  textarea{
+    width:100%;
+  }
 
 
 }
