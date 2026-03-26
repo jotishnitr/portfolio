@@ -313,13 +313,6 @@ a{
   justify-content:center;
 }
 
-.message-section{
-  display:flex;
-  justify-content:center;
-  padding:10px;
-  gap:200px;
-  
-}
 .contact-container{
   display:flex;
   justify-content:center;
@@ -460,7 +453,7 @@ textarea{
   .contact-container{
     flex-direction:column;
     gap:30px;
-    padding:20px;
+    align-items:center;
   }
 
   .contact-left{
