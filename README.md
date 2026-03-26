@@ -7,10 +7,6 @@ The website showcases my skills, projects, and contact information.
 
 https://jotishnitr.github.io/portfolio/
 
-## ⚠️ Note
-
-For the best viewing experience, please open the portfolio on a **desktop or laptop (PC)**.
-
 
 ## Features
 
