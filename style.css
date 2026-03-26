@@ -78,6 +78,7 @@ body{
   display:flex;
   flex-direction:column;
   justify-content:center;
+  align-items:flex-start;
   gap:20px;
   font-family:roboto,Arial;
 }
@@ -92,9 +93,10 @@ body{
 .projects{
   background-color:rgb(19, 119, 201);
   color:white;
+  display:inline-block;
   text-decoration:none;
   cursor:pointer;
-  width:100px;
+  white-space:nowrap;
   padding:10px 20px;
   border-radius:6px;
   transition:box-shadow 0.15s,opacity 0.3s,padding 0.15s;
