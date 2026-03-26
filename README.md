@@ -5,7 +5,7 @@ The website showcases my skills, projects, and contact information.
 
 ## Live Website
 
-https://jotishnitr.github.io/portfolio/
+https://jotishportfolio.netlify.app/
 
 
 ## Features
@@ -14,7 +14,7 @@ https://jotishnitr.github.io/portfolio/
 * Hero section with introduction
 * Skills section with technology cards
 * Projects section linking to GitHub repositories
-* Contact section with email, GitHub, LinkedIn, and location
+* Contact section with email, GitHub, LinkedIn, location and Contact Form
 * Smooth scrolling navigation
 * Clean modern UI design
 
@@ -51,6 +51,7 @@ https://jotishnitr.github.io/portfolio/
    * GitHub
    * LinkedIn
    * Location
+   * Contact Form
 
 ## How to Run Locally
 
@@ -67,7 +68,7 @@ git clone https://github.com/jotishnitr/portfolio.git
 ## Future Improvements
 
 * Add more projects
-* Improve responsiveness for mobile devices
+* Add more skills
 * Add JavaScript for interactive features
 
 ## Author
