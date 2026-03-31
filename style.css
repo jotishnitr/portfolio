@@ -201,7 +201,7 @@ img{
   transition:transform 0.2s;
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
-.portfolio-projects{
+.portfolio-projects,.blackjack-game{
   display:flex;
   justify-content:center;
   padding:20px;
@@ -225,29 +225,29 @@ img{
   transition:transform 0.2s;
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
-.knn:hover,.portfolio-projects:hover,.dsa-projects:hover{
+.knn:hover,.portfolio-projects:hover,.dsa-projects:hover,.blackjack-game:hover{
   transform:translateY(-5px);
 }
-.knn-text,.portfolio-text,.dsa-text{
+.knn-text,.portfolio-text,.dsa-text,.blackjack-text{
   display:flex;
   flex-direction:column;
   gap:15px;
 }
-.knn-title,.portfolio-title,.dsa-title{
+.knn-title,.portfolio-title,.dsa-title,.blackjack-title{
   font-size:22px;
   font-weight:550;
 }
-.knn-github,.portfolio-github,.dsa-github{
+.knn-github,.portfolio-github,.dsa-github,.blackjack-github{
   background: linear-gradient(90deg, #2563eb, #38bdf8);
   color:white;
   padding:7px 13px;
   border-radius:6px;
 }
-.knn-button,.portfolio-button,.dsa-button{
+.knn-button,.portfolio-button,.dsa-button,.blackjack-button{
   padding-top:20px;
   transition:opacity 0.2s;
 }
-.knn-button:hover,.portfolio-button:hover,.dsa-button:hover{
+.knn-button:hover,.portfolio-button:hover,.dsa-button:hover,.blackjack-button:hover{
   opacity:0.8;
 }
 .contact-details{
