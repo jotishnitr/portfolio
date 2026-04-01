@@ -450,7 +450,8 @@ textarea{
 
   .knn,
   .portfolio-projects,
-  .dsa-projects{
+  .dsa-projects,
+  .blackjack-game{
     width:90%;
     flex-direction:column;
     gap:15px;
