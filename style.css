@@ -141,7 +141,7 @@ img{
   width:64px;
   height:64px;
 }
-.python-skill,.html-skill,.css-skill,.dsa-skill{
+.python-skill,.html-skill,.css-skill,.dsa-skill,.js-skill{
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -153,14 +153,14 @@ img{
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
 }
-.python-skill:hover,.html-skill:hover,.css-skill:hover,.dsa-skill:hover{
+.python-skill:hover,.html-skill:hover,.css-skill:hover,.dsa-skill:hover,.js-skill:hover{
   transform:translateY(-5px);
 }
-.pythonimage,.htmlimage,.cssimage,.dsaimage{
+.pythonimage,.htmlimage,.cssimage,.dsaimage,jsimage{
   display:flex;
   justify-content:center;
 }
-.python,.html,.css,.dsa{
+.python,.html,.css,.dsa,.js{
   display:flex;
   justify-content:center;
 }
