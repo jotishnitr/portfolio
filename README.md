@@ -24,6 +24,8 @@ https://jotishportfolio.netlify.app/
 * CSS3
 * Flexbox
 * Google Fonts (Roboto)
+* Animations
+* Color gradients
 
 ## Sections in the Website
 
@@ -37,12 +39,14 @@ https://jotishportfolio.netlify.app/
    * Python (Basic)
    * HTML
    * CSS
+   * JavaScript
    * Data Structures and Algorithms (Learning)
 
 3. **Projects**
 
    * KNN Algorithm Implementation
    * Portfolio Website
+   * Blackjack game
    * DSA Problem Insights
 
 4. **Contact**
