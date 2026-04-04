@@ -6,6 +6,15 @@ body{
   background:white;
   color:darkslategrey;
   margin:0;
+  animation:fadeIn 0.8s ease-in;
+}
+@keyframes fadeIn{
+  from{
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
 }
 .navbar{
   display:flex;
@@ -85,14 +94,17 @@ body{
   justify-content:center;
   gap:20px;
   font-family:roboto,Arial;
+  animation:slideDown 0.8s ease;
 }
 .name{
   font-size:35px;
   font-weight:bold;
   font-family:roboto,Arial;
+  animation:slideDown 0.8s ease;
 }
 .aspiring{
   font-size:22px;
+  animation:slideDown 0.8s ease;
 }
 .projects{
   color:white;
@@ -103,6 +115,7 @@ body{
   border-radius:6px;
   transition:box-shadow 0.15s,opacity 0.3s,padding 0.15s;
   background: linear-gradient(90deg, #2563eb, #38bdf8);
+  animation:slideDown 0.8s ease;
 }
 .projects:hover{
   box-shadow:0px 6px 15px rgba(0,0,0,0.2);;
@@ -110,6 +123,16 @@ body{
 }
 .projects:active{
   padding:13px 23px;
+}
+@keyframes slideDown{
+  from{
+    transform:translateY(-50px);
+    opacity:0;
+  }
+  to{
+    transform:translateY(0px);
+    opacity:1;
+  }
 }
 .skills{
   display:flex;
@@ -130,6 +153,16 @@ body{
   background: linear-gradient(90deg, #2563eb, #6366f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+@keyframes slideRight{
+  from{
+    opacity:0;
+    transform:translateX(-50px);
+  }
+  to{
+    opacity:1;
+    transfrom:translateX(0px);
+  }
 }
 .images{
   display:flex;
@@ -152,6 +185,7 @@ img{
   transition:transform 0.2s;
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+  animation:slideRight 0.9s ease;
 }
 .python-skill:hover,.html-skill:hover,.css-skill:hover,.dsa-skill:hover,.js-skill:hover{
   transform:translateY(-5px);
@@ -182,6 +216,7 @@ img{
   background: linear-gradient(90deg, #2563eb, #6366f1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation:slideDown 0.6s ease;
 }
 .projects-display{
   display:flex;
@@ -200,6 +235,7 @@ img{
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   transition:transform 0.2s;
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+  animation:slideDown 0.9s ease;
 }
 .portfolio-projects,.blackjack-game{
   display:flex;
@@ -212,6 +248,7 @@ img{
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   transition:transform 0.2s;
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+  animation:slideDown 0.9s ease;
 }
 .dsa-projects{
   display:flex;
@@ -224,6 +261,7 @@ img{
   box-shadow:0px 8px 20px rgb(0,0,0,0.12);
   transition:transform 0.2s;
   background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+  animation:slideDown 0.9s ease;
 }
 .knn:hover,.portfolio-projects:hover,.dsa-projects:hover,.blackjack-game:hover{
   transform:translateY(-5px);
