@@ -156,7 +156,7 @@ img{
 .python-skill:hover,.html-skill:hover,.css-skill:hover,.dsa-skill:hover,.js-skill:hover{
   transform:translateY(-5px);
 }
-.pythonimage,.htmlimage,.cssimage,.dsaimage,jsimage{
+.pythonimage,.htmlimage,.cssimage,.dsaimage,.jsimage{
   display:flex;
   justify-content:center;
 }
