@@ -5,7 +5,7 @@ The website showcases my skills, projects, and contact information.
 
 ## Live Website
 
-https://jotishportfolio.netlify.app/
+https://jotishnitr.github.io/portfolio/
 
 
 ## Features
