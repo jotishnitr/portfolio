@@ -5,7 +5,7 @@ The website showcases my skills, projects, and contact information.
 
 ## Live Website
 
-https://jotishnitr.github.io/portfolio/
+https://myportfolio-lyart-eight-17.vercel.app/
 
 
 ## Features
