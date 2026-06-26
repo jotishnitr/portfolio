@@ -2,100 +2,208 @@
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Jotish Kumar | Frontend Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="web icon" href="icon.png" type="image/x-icon">
   </head>
   <body>
+    <script src="index.js"></script>
     
-
-
     <div class="navbar">
       <div>
-        <p class="portfolio">Portfolio</p>
+        <p class="portfolio">Jotish.dev</p>
       </div>
+      
       <div class="menu">
-      <div><a href="#home" class="home">Home</a></div>
-      <div><a href="#skills" class="skills-menu">Skills</a></div>
-      <div><a href="#projects-section" class="projects-menu">Projects</a></div>
-      <div><a href="#contact" class="contact-menu">Contact</a></div>
+        <div><a href="#home" class="home">Home</a></div>
+        <div><a href="#skills" class="skills-menu">Skills</a></div>
+        <div><a href="#projects-section" class="projects-menu">Projects</a></div>
+        <div><a href="#languages" class="languages-menu">Languages</a></div>
+        <div><a href="#contact" class="contact-menu">Contact</a></div>
       </div>
     </div>
 
     <div class="hero-section" id="home">
       <div class="photo">
-        <img src="profile.jpg">
+        <img src="profile.jpg" alt="Jotish Kumar Profile">
       </div>
       <div class="details">
         <div class="name">Hello, I'm Jotish Kumar</div>
-        <div class="aspiring">Aspiring software Engineer</div>
-        <a class="projects" href="#projects-section">View Projects</a>
+        <div class="aspiring">Frontend Developer</div>
+        <a class="projects" href="#projects-section">Explore Work</a>
       </div>
     </div>
 
-
     <div class="skills" id="skills">
-      <div class="skill">Skills</div>
+      <div class="skill">Skills & Technologies</div>
       <div class="images">
-        <div class="python-skill">
-          <div class="pythonimage"><img src="python.jpg"></div>
-          <div class="python">Python(Basic)</div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="react-icon"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+          </div>
+          <div class="skill-name">React.js</div>
         </div>
-        <div class="html-skill">
-          <div class="htmlimage"><img src="html.jpg"></div>
-          <div class="html">HTML</div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="js-icon"><path d="M3 3h18v18H3z"/><path d="M16 8v5a3 3 0 0 1-6 0v-1h2v1a1 1 0 0 0 2 0V8z"/></svg>
+          </div>
+          <div class="skill-name">JavaScript</div>
         </div>
-        <div class="css-skill">
-          <div class="cssimage"><img src="css.png"></div>
-          <div class="css">CSS</div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="html-icon"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <div class="skill-name">HTML5</div>
         </div>
-        <div class="js-skill">
-          <div class="jsimage"><img src="js.jpg"></div>
-          <div class="js">JavaScript</div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="css-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="skill-name">CSS3</div>
         </div>
-        <div class="dsa-skill">
-          <div class="dsaimage"><img src="dsa.png"></div>
-          <div class="dsa">DSA(Learning)</div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="python-icon"><path d="M12 2a5 5 0 0 0-5 5v2h10V7a5 5 0 0 0-5-5zM7 9a5 5 0 0 0-5 5v3a5 5 0 0 0 5 5h3v-2H7a3 3 0 0 1-3-3v-3a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v3a3 3 0 0 1-3 3h-3v2h3a5 5 0 0 0 5-5v-3a5 5 0 0 0-5-5H7z"/></svg>
+          </div>
+          <div class="skill-name">Python</div>
         </div>
+        <div class="skill-card">
+          <div class="skill-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dsa-icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          </div>
+          <div class="skill-name">DSA</div>
         </div>
+      </div>
     </div>
 
     <div class="projects-section" id="projects-section">
-      <div class="projects-title">Projects</div>
+      <div class="projects-title">Featured Projects</div>
       <div class="projects-display">
-        <div class="knn">
-          <div class="knn-text">
-            <div class="knn-title">KNN Algorithm Implementation</div>
-            <div class="knn-description">Built a basic K-Nearest Neighbours Algorithm from scratch in Python</div>
+        
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">medi-trackr</div>
+            <div class="project-description">A medicine tracker application built with React.js, HTML, and CSS to manage and track prescriptions.</div>
+            <div class="project-tags">
+              <span class="tag">React.js</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+            </div>
           </div>
-          <div class="knn-button"><a target="_blank" href="https://github.com/jotishnitr/knn-from-scratch-basic" class="knn-github">GitHub</a></div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/medi-trackr" class="project-github">GitHub</a></div>
         </div>
 
-        <div class="portfolio-projects">
-          <div class="portfolio-text">
-            <div class="portfolio-title">Portfolio Website</div>
-            <div class="portfolio-description">Created a personal portfolio website using HTML and CSS</div>
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">Currency Converter</div>
+            <div class="project-description">A sleek, premium real-time currency converter built with HTML, CSS, and JavaScript.</div>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API Integration</span>
+              <span class="tag">CSS3</span>
+            </div>
           </div>
-          <div class="portfolio-button"><a target="_blank" href="https://github.com/jotishnitr/portfolio" class="portfolio-github">GitHub</a></div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/currencyconverter" class="project-github">GitHub</a></div>
         </div>
 
-        <div class="blackjack-game">
-          <div class="blackjack-text">
-            <div class="blackjack-title">Blackjack Game</div>
-            <div class="blackjack-description">Created a Blackjack Game using HTML,CSS and JavaScript</div>
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">Leads Tracker</div>
+            <div class="project-description">A lightweight Chrome extension to save and manage useful links and leads directly from your browser.</div>
+            <div class="project-tags">
+              <span class="tag">Chrome Extension</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">JSON</span>
+            </div>
           </div>
-          <div class="blackjack-button"><a target="_blank" href="https://github.com/jotishnitr/Blackjackarena" class="blackjack-github" >GitHub</a></div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/Leads-tracker" class="project-github">GitHub</a></div>
         </div>
 
-        <div class="dsa-projects">
-          <div class="dsa-text">
-            <div class="dsa-title">DSA Problem Insights</div>
-            <div class="dsa-description">Solved algorithm problems along with approaches and solutions</div>
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">Tic-Tac-Toe</div>
+            <div class="project-description">A sleek, neon-dark themed two-player browser game built with JavaScript, HTML, and CSS.</div>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Game Dev</span>
+              <span class="tag">CSS3</span>
+            </div>
           </div>
-          <div class="dsa-button"><a target="_blank" href="https://github.com/jotishnitr/DSA-CPP" class="dsa-github">GitHub</a></div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/TIC-TAC-TOE" class="project-github">GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">Meme Lab</div>
+            <div class="project-description">A custom website for creating and generating memes dynamically using JavaScript.</div>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">API</span>
+              <span class="tag">HTML5</span>
+            </div>
+          </div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/meme-lab" class="project-github">GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">Blackjack Arena</div>
+            <div class="project-description">An interactive Blackjack card game designed and developed using HTML, CSS, and JavaScript.</div>
+            <div class="project-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Game Dev</span>
+              <span class="tag">CSS3</span>
+            </div>
+          </div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/Blackjackarena" class="project-github">GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">KNN from Scratch</div>
+            <div class="project-description">Implementation of the K-Nearest Neighbors machine learning algorithm from scratch in Python.</div>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Machine Learning</span>
+            </div>
+          </div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/knn-from-scratch-basic" class="project-github">GitHub</a></div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-text">
+            <div class="project-title">DSA Problem Insights</div>
+            <div class="project-description">A collection of solved Data Structures & Algorithms problems in C++ with detailed approaches.</div>
+            <div class="project-tags">
+              <span class="tag">C++</span>
+              <span class="tag">Data Structures</span>
+              <span class="tag">Algorithms</span>
+            </div>
+          </div>
+          <div class="project-button"><a target="_blank" href="https://github.com/jotishnitr/DSA-CPP" class="project-github">GitHub</a></div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Languages Section -->
+    <div class="languages-section" id="languages">
+      <div class="languages-title">Languages</div>
+      <div class="languages-display">
+        <div class="language-card">
+          <div class="language-name">Telugu</div>
+          <div class="language-level native">Native</div>
+        </div>
+        <div class="language-card">
+          <div class="language-name">English</div>
+          <div class="language-level communicable">Communicable</div>
+        </div>
+        <div class="language-card">
+          <div class="language-name">Hindi</div>
+          <div class="language-level intermediate">Intermediate</div>
         </div>
       </div>
     </div>
@@ -105,7 +213,7 @@
     <div class="contact">
       <div class="emaildetails">
         <div class="emailoption">
-          <div ><img class="email-image" src="email.jpg"> </div>
+          <div ><img class="email-image" src="email.jpg" alt="Email"> </div>
           <div class="email">Email</div>
         </div>
         <div>
@@ -114,8 +222,8 @@
       </div>
       <div class="githubdetails">
         <div class="githuboption">
-          <div><img class="github-image" src="github.jpg"></div>
-          <div class="github">Git Hub</div>
+          <div><img class="github-image" src="github.jpg" alt="GitHub"></div>
+          <div class="github">GitHub</div>
         </div>
         <div>
           <a target="_blank" class="githublink" href="https://github.com/jotishnitr">github.com/jotishnitr</a>
@@ -123,8 +231,8 @@
       </div>
       <div class="linkedindetails">
         <div class="linkedinoption">
-          <div><img class="linkedin-image" src="linkedin.jpg"></div>
-          <div class="linkedin">Linkedin</div>
+          <div><img class="linkedin-image" src="linkedin.jpg" alt="LinkedIn"></div>
+          <div class="linkedin">LinkedIn</div>
         </div>
         <div>
           <a target="_blank" class="linkedinlink" href="https://www.linkedin.com/in/jotish-kumar-b6b252389/">linkedin.com/in/jotish-kumar</a>
@@ -132,7 +240,7 @@
       </div>
       <div class="locationdetails">
         <div class="locationoption">
-          <div><img class="location-image" src="location.jpg"></div>
+          <div><img class="location-image" src="location.jpg" alt="Location"></div>
           <div class="location">Location</div>
         </div>
         <div class="locationlink">
@@ -155,7 +263,7 @@
       </div>
 
       <div>
-      <form action="https://httpbin.org/get" method="get">
+      <form id="contact-form">
 
         <fieldset>
           <legend>Send a Message</legend>
@@ -167,8 +275,9 @@
           <textarea  name="message" id="message" cols="50" rows="10" placeholder="Type your message" ></textarea>
 
           <div class="submit">
-            <button class="submit-button"  type="submit">Submit</button>
+            <button  class="submit-button"  type="submit">Submit</button>
           </div>
+ 
 
         </fieldset>
       
@@ -188,7 +297,5 @@
     </div>
     
 
-    
   </body>
-  
 </html>
